@@ -1,13 +1,17 @@
 @import '../../styles/colors';
 
+  
 .profiles{
+    margin: 10px 50px;
     .heading{
         display: flex;
         flex-direction: column;
         width: 153px;
+        
 
         h1{
             font-size: 2.5rem;
+            font-weight: 400;
         }
 
         .line{
