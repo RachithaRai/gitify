@@ -33,7 +33,7 @@ function Rightside() {
                 <Heading id={'configureTooling'} heading={'CONFIGURE TOOLING'} />
                 <SubHeading 
                     subheading={'Configure user information for all local repositories'} />
-                <CodeSnippet
+                <CodeSnippet 
                     code={'git config --global user.name "[name]"'} 
                     description={'Sets the name you want attached to your commit transactions'}                     
                 />
@@ -140,7 +140,7 @@ function Rightside() {
                 <SubHeading 
                     subheading={'Exclude temporary files and path'} />
                 <CodeSnippet 
-                    code={'*.log build/ temp-*'} 
+                    code={'*.log build/ temp-*'} //tatti💩 check this also no dollar
                     description={'A text file named .gitignore suppresses accidental versioning of files and paths matching the specified patterns'} 
                 />
                 <CodeSnippet 
